@@ -20,27 +20,11 @@
             }
         },
         {
-            "label": "Start App",
+            "label": "Use Portfolio Env",
             "type": "shell",
-            "command": "npm start",
+            "command": "conda activate Portfolio",
             "windows": {
-                "command": "npm start"
-            },
-            "group": "none",
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            },
-            "runOptions": {
-                "runOn": "folderOpen",
-            }
-        },
-        {
-            "label": "Start Test",
-            "type": "shell",
-            "command": "npm run test",
-            "windows": {
-                "command": "npm run test"
+                "command": "conda activate Portfolio"
             },
             "group": "none",
             "presentation": {
