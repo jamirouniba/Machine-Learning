@@ -1,3 +1,4 @@
-.vscode
+./vscode
 /Utils
-/Datasets
+Datasets
+Image Classification/data
